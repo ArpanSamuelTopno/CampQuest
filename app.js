@@ -22,7 +22,7 @@ const reviewRoutes = require('./routes/reviews');
 
 const MongoDBStore = require("connect-mongo")(session);
 
-const dbUrl = 'mongodb+srv://arpansamueltopno:LcSs8yPOhTD1UxFF@cluster0.ujcwfjq.mongodb.net/?retryWrites=true&w=majority';
+const dbUrl = 'mongodb+srv://arpansamueltopno:arpansamuel@cluster0.xu7emig.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose.connect(dbUrl);
 
